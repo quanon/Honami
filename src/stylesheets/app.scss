@@ -1,0 +1,23 @@
+@import 'photon/photon';
+
+table {
+  table-layout: fixed;
+}
+
+.before-filepath, .after-filepath {
+  color: $dark-border-color;
+  font-size: 10px;
+}
+
+.replace-form {
+  margin-left: 4px;
+}
+
+.like-replace {
+  font-size: 18px;
+}
+
+#replace-button {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}

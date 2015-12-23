@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    title Honami
+    link(rel='stylesheet' href='./stylesheets/app.css')
+    script(src='./javascripts/app.js')
+  body
+    .window
+      header.toolbar.toolbar-header
+        .toolbar-actions
+          .btn-group
+            button#file-select.btn.btn-default
+              span.icon.icon-folder
+      main.window-content
+        table.table-striped
+          thead
+            tr
+              th Before
+              th After
+          tbody#file-list
+      footer.toolbar.toolbar-footer
+        .toolbar-actions
+          .replace-form.pull-left
+            span.like-replace filename.replace(/
+            input#pattern(type=text)
+            span.like-replace /, '
+            input#replacement(type=text)
+            spen.like-replace ');
+          button#replace-button.btn.btn-primary.pull-right Replace
